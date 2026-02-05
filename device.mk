@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
 TARGET_DISABLE_MATLOG := true
 
 #Sign Builds
--include vendor/lineage-priv/keys/keys.mk
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
